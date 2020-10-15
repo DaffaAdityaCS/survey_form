@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <link rel="stylesheet" href="style.css">
+ <body>
+  <div class="box"> 
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you using our service</p>
+   
+      <form id"survey-form">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name-label" name="name" placeholder="windy" value=""><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email-label" name="email" placeholder="example@gmail.com" value=""><br>
+        <label for="age">Age:</label><br>
+        <input type="number" min="1" max="100" id="number-label" name="age" placeholder="18" value=""><br>
+      <form id="dropdown">
+        <p>Enter Your Gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female"female>female</label><br>
+          <p>Any comments or suggestions?</p>
+         <textarea id="suggestion" name="suggestion"  row="5" cols="50" placeholder="comments or suggestions"></textarea>
+     <br><br>
+      </form>
+    <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
